@@ -1,0 +1,266 @@
+ul{
+    list-style: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.center{
+    width: 1200px;
+    margin: 0 auto;
+}
+#top_nav_box{
+    width: 100%;
+    height: 29px;
+    line-height: 29px;
+    border-bottom: 1px #e8e8e8 solid;
+    background-color: #f1f1f1;
+    color: #767676;
+    font-size: 12px;
+}
+#top_nav_box a{
+    color: #525252;
+}
+#top_nav_box i.glyphicon-chevron-down{
+    font-size: 8px;
+    margin-left: 2px;
+    transition: all 0.4s;
+}
+#top_nav_box li a .glyphicon-phone,#top_nav_box li a .glyphicon-th-large,#top_nav_box li a .glyphicon-user{
+    color: #ff6600;
+    margin-right: 2px;
+}
+#top_nav_box li a.top_nav_item{
+    width: 100%;
+}
+#top_nav_box a.top_nav_item:hover{
+    color: #ff6600;
+}
+#top_nav_box a:hover{
+    color: #ff6600;
+}
+#top_nav_box li:hover .glyphicon-chevron-down{
+    transform: rotate(180deg);
+    color: #525252;
+}
+#top_nav_box .top_nav_l li:nth-child(1){
+    position: relative;
+    padding-right: 0;
+    border-left: 1px transparent solid;
+    border-right: 1px transparent solid;
+}
+#top_nav_box .top_nav_l li:nth-child(1) a{
+    padding-right: 10px;
+    border-right: 1px rgb(217, 217, 217) solid;
+}
+#top_nav_box .top_nav_l li:nth-child(1):hover a{
+    border-right: 1px transparent solid;
+}
+#top_nav_box .top_nav_l li:nth-child(1):hover{
+    background-color: white;
+    border-left: 1px rgb(217, 217, 217) solid;
+    border-right: 1px rgb(217, 217, 217) solid;
+}
+#top_nav_box .top_nav_l li:nth-child(1):hover .qr_box{
+    display: block;
+}
+#top_nav_box .top_nav_l li:nth-child(1) .qr_box{
+    position: absolute;
+    top: 28px;
+    left: -1px;
+    border: 1px solid #e0e0e0;
+    color: #666;
+    line-height: 35px;
+    text-align: center;
+    display: none;
+    background-color: white;
+    transition: all 0.4s;
+    z-index: 2;
+}
+#top_nav_box .top_nav_l li:nth-child(1) .qr{
+    padding: 16px 14px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+#top_nav_box .top_nav_l li:nth-child(1) .qr p{
+    margin: 0;
+}
+#top_nav_box .top_nav_l li:nth-child(3){
+    padding-right: 0;
+}
+#top_nav_box .top_nav_l li:nth-child(3) a{
+    padding-right: 10px;
+    border-right: 1px rgb(217, 217, 217) solid;
+}
+#top_nav_box .top_nav_r{
+    display: flex;
+}
+#top_nav_box .top_nav_r  li{
+    position: relative;
+    padding: 0;
+    border-left: 1px transparent solid;
+    border-right: 1px transparent solid;
+}
+#top_nav_box .top_nav_r li:hover div.dropdown_item{
+    display: block;
+}
+#top_nav_box .top_nav_r  li a.top_nav_item{
+    padding: 0 10px 0 8px;
+    border-right: 1px rgb(217, 217, 217) solid;
+    position: relative;
+    left: 2px;
+}
+#top_nav_box .top_nav_r li:nth-child(2) .favorite{
+    position: absolute;
+    top: 28px;
+    left: -1px;
+    width: 71px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    background-color: white;
+    display: none;
+    z-index: 2;
+}
+#top_nav_box .top_nav_r li:nth-child(2):hover{
+    background-color: white;
+    border-left: 1px rgb(217, 217, 217) solid;
+    border-right: 1px rgb(217, 217, 217) solid;
+}
+#top_nav_box .top_nav_r li:nth-child(2):hover a.top_nav_item{
+    border-right-color: transparent;
+}
+#top_nav_box .top_nav_r li:nth-child(3) .purchaser{
+    position: absolute;
+    top: 28px;
+    left: -1px;
+    width: 95px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    background-color: white;
+    display: none;
+    z-index: 2;
+}
+#top_nav_box .top_nav_r li:nth-child(3):hover{
+    background-color: white;
+    border-left: 1px rgb(217, 217, 217) solid;
+    border-right: 1px rgb(217, 217, 217) solid;
+}
+#top_nav_box .top_nav_r li:nth-child(3):hover a.top_nav_item{
+    border-right-color: transparent;
+}
+#top_nav_box .top_nav_r li:nth-child(4) .supplier{
+    position: absolute;
+    top: 28px;
+    left: -1px;
+    width: 95px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    background-color: white;
+    display: none;
+    z-index: 2;
+}
+#top_nav_box .top_nav_r li:nth-child(4):hover{
+    background-color: white;
+    border-left: 1px rgb(217, 217, 217) solid;
+    border-right: 1px rgb(217, 217, 217) solid;
+}
+#top_nav_box .top_nav_r li:nth-child(4):hover a.top_nav_item{
+    border-right-color: transparent;
+}
+#top_nav_box .top_nav_r li:nth-child(6) .service{
+    position: absolute;
+    top: 28px;
+    left: -1px;
+    width: 280%;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    background-color: white;
+    display: none;
+    z-index: 2;
+}
+#top_nav_box .top_nav_r li:nth-child(6) .service dl{
+    margin: 0;
+}
+#top_nav_box .top_nav_r li:nth-child(6) .service dt{
+    color: #4d4d4d;
+    padding: 0 0 4px;
+}
+#top_nav_box .top_nav_r li:nth-child(6) .service dd{
+    display: inline-block;
+    width: 49%;
+    color: #707070;
+}
+#top_nav_box .top_nav_r li:nth-child(6):hover{
+    background-color: white;
+    border-left: 1px rgb(217, 217, 217) solid;
+    border-right: 1px rgb(217, 217, 217) solid;
+}
+#top_nav_box .top_nav_r li:nth-child(6):hover a.top_nav_item{
+    border-right-color: transparent;
+}
+#top_nav_box .top_nav_r li:nth-child(7) .customer_service{
+    position: absolute;
+    top: 28px;
+    left: -1px;
+    width: 83px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    background-color: white;
+    display: none;
+    z-index: 2;
+}
+#top_nav_box .top_nav_r li:nth-child(7):hover{
+    background-color: white;
+    border-left: 1px rgb(217, 217, 217) solid;
+    border-right: 1px rgb(217, 217, 217) solid;
+}
+#top_nav_box .top_nav_r li:nth-child(7):hover a.top_nav_item{
+    border-right-color: transparent;
+}
+#top_nav_box .top_nav_r li:nth-child(8) .website{
+    position: absolute;
+    top: 28px;
+    right: -1px;
+    width: 320%;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    background-color: white;
+    display: none;
+    z-index: 2;
+}
+#top_nav_box .top_nav_r li:nth-child(8) .website dl{
+    border-bottom: 1px solid #ededed;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+#top_nav_box .top_nav_r li:nth-child(8) .website dl:nth-child(3){
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#top_nav_box .top_nav_r li:nth-child(8) .website dt{
+    color: #4d4d4d;
+    padding: 0 0 4px;
+}
+#top_nav_box .top_nav_r li:nth-child(8) .website dd{
+    display: inline-block;
+    width: 24%;
+    color: #707070;
+}
+#top_nav_box .top_nav_r li:nth-child(8):hover{
+    background-color: white;
+    border-left: 1px rgb(217, 217, 217) solid;
+    border-right: 1px rgb(217, 217, 217) solid;
+}
+#top_nav_box .top_nav_r li:nth-child(8):hover a.top_nav_item{
+    border-right-color: transparent;
+}
